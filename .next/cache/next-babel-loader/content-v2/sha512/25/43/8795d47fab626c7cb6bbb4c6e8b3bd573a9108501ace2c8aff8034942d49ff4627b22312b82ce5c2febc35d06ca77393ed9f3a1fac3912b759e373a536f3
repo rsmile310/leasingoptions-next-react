@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { createContext } from 'react';\nconst ModalContext = /*#__PURE__*/createContext({\n  component: null,\n  props: {},\n  showModal: (T, A) => {},\n  hideModal: () => {}\n});\nexport default ModalContext;","map":null,"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { AuthenticationAPI } from \"API/AuthenticationAPI\";\nexport class AuthenticationService {\n  static async IsInternalPage() {\n    return AuthenticationAPI.IsInternal();\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

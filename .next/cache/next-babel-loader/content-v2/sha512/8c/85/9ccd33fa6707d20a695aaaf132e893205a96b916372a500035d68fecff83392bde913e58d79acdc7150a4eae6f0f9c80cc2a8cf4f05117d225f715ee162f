@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './trust-mini';","map":{"version":3,"sources":["E:/current_project/PPH/tfs/Website/Website/components/trustpilot/trust-mini/index.jsx"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,cAAxB","sourcesContent":["export { default } from './trust-mini';"]},"metadata":{},"sourceType":"module"}

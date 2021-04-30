@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './trust-card';","map":{"version":3,"sources":["E:/current_project/PPH/tfs/Website/Website/components/trustpilot/trust-card/index.jsx"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,cAAxB","sourcesContent":["export { default } from './trust-card';"]},"metadata":{},"sourceType":"module"}

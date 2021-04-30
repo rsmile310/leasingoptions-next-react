@@ -1,0 +1,1 @@
+{"ast":null,"code":"export let FuelTypes;\n\n(function (FuelTypes) {\n  FuelTypes[FuelTypes[\"Petrol\"] = 1] = \"Petrol\";\n  FuelTypes[FuelTypes[\"Diesel\"] = 2] = \"Diesel\";\n  FuelTypes[FuelTypes[\"Electric\"] = 3] = \"Electric\";\n  FuelTypes[FuelTypes[\"Hybrid\"] = 4] = \"Hybrid\";\n})(FuelTypes || (FuelTypes = {}));","map":null,"metadata":{},"sourceType":"module"}

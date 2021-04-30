@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './to-top';","map":{"version":3,"sources":["E:/current_project/PPH/tfs/Website/Website/components/layout/to-top/index.jsx"],"names":["default"],"mappings":"AAAA,SAAQA,OAAR,QAAuB,UAAvB","sourcesContent":["export{ default } from './to-top';"]},"metadata":{},"sourceType":"module"}

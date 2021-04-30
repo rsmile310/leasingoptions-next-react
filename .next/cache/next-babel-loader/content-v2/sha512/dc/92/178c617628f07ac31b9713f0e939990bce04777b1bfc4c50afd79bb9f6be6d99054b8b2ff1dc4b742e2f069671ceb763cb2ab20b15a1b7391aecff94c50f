@@ -1,0 +1,1 @@
+{"ast":null,"code":"export let VehicleTypes;\n\n(function (VehicleTypes) {\n  VehicleTypes[VehicleTypes[\"None\"] = 0] = \"None\";\n  VehicleTypes[VehicleTypes[\"Car\"] = 1] = \"Car\";\n  VehicleTypes[VehicleTypes[\"Commercial\"] = 2] = \"Commercial\";\n})(VehicleTypes || (VehicleTypes = {}));","map":null,"metadata":{},"sourceType":"module"}

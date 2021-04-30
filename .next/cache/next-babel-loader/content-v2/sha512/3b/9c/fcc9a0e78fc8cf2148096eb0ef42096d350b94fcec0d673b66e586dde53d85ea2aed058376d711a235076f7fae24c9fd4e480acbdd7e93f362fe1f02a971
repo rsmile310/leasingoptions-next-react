@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { useRef, useEffect } from \"react\";\nexport var useIsMount = function useIsMount() {\n  var isMountRef = useRef(true);\n  useEffect(function () {\n    isMountRef.current = false;\n  }, []);\n  return isMountRef.current;\n};","map":null,"metadata":{},"sourceType":"module"}

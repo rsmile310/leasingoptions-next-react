@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const parseStringDate = d => {\n  var parts = d.split(/:|\\s/);\n  var date = new Date();\n  if (parts.pop().toLowerCase() == 'pm') parts[0] = +parts[0] + 12;\n  date.setHours(+parts.shift());\n  date.setMinutes(+parts.shift());\n  return date;\n};","map":null,"metadata":{},"sourceType":"module"}

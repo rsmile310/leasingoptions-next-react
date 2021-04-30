@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './sticker';","map":{"version":3,"sources":["E:/current_project/PPH/tfs/Website/website/components/layout/sticker/index.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,WAAxB","sourcesContent":["export { default } from './sticker';"]},"metadata":{},"sourceType":"module"}

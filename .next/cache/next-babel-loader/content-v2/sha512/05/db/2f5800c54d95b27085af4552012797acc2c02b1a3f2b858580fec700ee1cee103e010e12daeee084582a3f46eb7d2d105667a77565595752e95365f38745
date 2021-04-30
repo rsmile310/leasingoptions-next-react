@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './trust-slider';","map":{"version":3,"sources":["E:/current_project/PPH/tfs/Website/website/components/trustpilot/trust-slider/index.jsx"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,gBAAxB","sourcesContent":["export { default } from './trust-slider';"]},"metadata":{},"sourceType":"module"}

@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './trust-micro';","map":{"version":3,"sources":["E:/current_project/PPH/tfs/Website/website/components/trustpilot/trust-micro/index.jsx"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,eAAxB","sourcesContent":["export { default } from './trust-micro';"]},"metadata":{},"sourceType":"module"}

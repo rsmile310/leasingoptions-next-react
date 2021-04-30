@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { GetValuation } from \"./systemService\";\nexport class ValueYourCarService {\n  static async GetValuation(payload) {\n    return GetValuation(payload);\n  }\n\n}","map":null,"metadata":{},"sourceType":"module"}

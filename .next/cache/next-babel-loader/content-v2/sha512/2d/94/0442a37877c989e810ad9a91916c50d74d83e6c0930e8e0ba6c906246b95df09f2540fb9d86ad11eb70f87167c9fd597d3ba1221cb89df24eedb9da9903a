@@ -1,0 +1,1 @@
+{"ast":null,"code":"import ModelContext from './modalContext';\nexport var ModalConsumer = ModelContext.Consumer;","map":null,"metadata":{},"sourceType":"module"}

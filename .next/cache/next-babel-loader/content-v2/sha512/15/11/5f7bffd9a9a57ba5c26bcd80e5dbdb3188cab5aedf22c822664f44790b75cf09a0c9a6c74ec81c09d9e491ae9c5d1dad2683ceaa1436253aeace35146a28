@@ -1,0 +1,1 @@
+{"ast":null,"code":"export var TrustWidgetTypes;\n\n(function (TrustWidgetTypes) {\n  TrustWidgetTypes[TrustWidgetTypes[\"Slider\"] = 1] = \"Slider\";\n  TrustWidgetTypes[TrustWidgetTypes[\"Box\"] = 2] = \"Box\";\n})(TrustWidgetTypes || (TrustWidgetTypes = {}));","map":null,"metadata":{},"sourceType":"module"}

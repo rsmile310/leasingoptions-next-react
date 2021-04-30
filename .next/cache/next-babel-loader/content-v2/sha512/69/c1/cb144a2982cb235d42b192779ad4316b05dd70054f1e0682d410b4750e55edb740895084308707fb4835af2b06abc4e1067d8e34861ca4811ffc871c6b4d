@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './footer';","map":{"version":3,"sources":["E:/current_project/PPH/tfs/Website/website/components/layout/footer/index.js"],"names":["default"],"mappings":"AAAA,SAASA,OAAT,QAAwB,UAAxB","sourcesContent":["export { default } from './footer';"]},"metadata":{},"sourceType":"module"}

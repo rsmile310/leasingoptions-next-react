@@ -1,0 +1,1 @@
+{"ast":null,"code":"export { default } from './search';","map":{"version":3,"sources":["E:/current_project/PPH/tfs/Website/Website/components/search/index.js"],"names":["default"],"mappings":"AAAA,SAAQA,OAAR,QAAuB,UAAvB","sourcesContent":["export {default } from './search';"]},"metadata":{},"sourceType":"module"}

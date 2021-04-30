@@ -1,0 +1,1 @@
+{"ast":null,"code":"export const getApiResponse = async response => {\n  const responseData = await response.json();\n  const result = {\n    data: responseData.data,\n    isSucceed: response.ok && responseData.status.code === 0\n  };\n  return result;\n};","map":null,"metadata":{},"sourceType":"module"}

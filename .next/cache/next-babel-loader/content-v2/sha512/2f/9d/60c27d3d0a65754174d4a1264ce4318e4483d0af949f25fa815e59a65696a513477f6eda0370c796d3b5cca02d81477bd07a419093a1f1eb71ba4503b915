@@ -1,0 +1,1 @@
+{"ast":null,"code":"export let GarageActionTypes;\n\n(function (GarageActionTypes) {\n  GarageActionTypes[GarageActionTypes[\"Save\"] = 1] = \"Save\";\n  GarageActionTypes[GarageActionTypes[\"Share\"] = 2] = \"Share\";\n})(GarageActionTypes || (GarageActionTypes = {}));","map":null,"metadata":{},"sourceType":"module"}

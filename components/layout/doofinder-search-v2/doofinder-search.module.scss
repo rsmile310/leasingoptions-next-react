@@ -1,0 +1,250 @@
+@import "../../../sass/_variables";
+
+
+.doofinder-block {
+    width: 100%;
+    position: relative;
+    background: #01112F;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    ul {
+        position: relative;
+        margin: 0 15px;
+        padding: 0;
+        border-bottom: 1px solid #777777;
+
+        li {
+            display: inline-block;
+            width: 50%;
+
+            button {
+                margin: 0 0 -1px 0!important;
+                padding: 15px 30px!important;
+                color: #777777;
+                text-decoration: none!important;
+                border: 0;
+                border-bottom: 1px solid transparent;
+
+                &.is-selected, &:hover, &:focus {
+                    color: $white;
+                    border-bottom: 1px solid $lo-blue;
+                }
+            }
+        }
+    }
+
+    .doofinder-block__options {
+        width: 100%;
+        position: relative;
+        padding: 20px 15px;
+    }
+
+    .doofinder-block__row {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: nowrap;
+
+        &:first-child {
+            margin: 0 0 20px 0;
+        }
+
+        label {
+            width: 50%;
+            position: absolute;
+            z-index: 1;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            margin: 0;
+            padding: 3px 0 0 10px;
+            background-color: $white;
+            color: $lo-black;
+            border-top-right-radius: 5px;
+            border-bottom-right-radius: 5px;
+
+            &:first-child {
+                left: 0;
+            }
+
+            &:nth-child(1) {
+                border-top-left-radius: 5px;
+                border-top-right-radius: 0;
+                border-bottom-left-radius: 5px;
+                border-bottom-right-radius: 0;
+            }
+
+            &:after {
+                width: 18px;
+                height: 18px;
+                position: absolute;
+                bottom: 6px;
+                right: 10px;
+                z-index: 3;
+                transform: rotate(90deg);
+                content: url("data:image/svg+xml; utf8, <svg aria-hidden='true' focusable='false' data-prefix='fas' data-icon='chevron-right' class='svg-inline--fa fa-chevron-right fa-w-10 ' role='img' xmlns='http://www.w3.org/2000/svg' viewBox='0 0 320 512' width='18' height='18'><path fill='currentColor' d='M285.476 272.971L91.132 467.314c-9.373 9.373-24.569 9.373-33.941 0l-22.667-22.667c-9.357-9.357-9.375-24.522-.04-33.901L188.505 256 34.484 101.255c-9.335-9.379-9.317-24.544.04-33.901l22.667-22.667c9.373-9.373 24.569-9.373 33.941 0L285.475 239.03c9.373 9.372 9.373 24.568.001 33.941z'></path></svg>");
+            }
+        }
+
+        select {
+            width: 50%;
+            height: 54px;
+            position: relative;
+            z-index: 2;
+            padding: 25px 10px 5px 10px;
+            flex-grow: 1;
+            margin: 0;
+            border: 0;
+            background-color: transparent;
+            color: $lo-placeholder;
+            border-right: 1px solid $lo-border;
+            appearance: none;
+            -webkit-appearance: none;
+        }
+    }
+
+    .doofinder-block__input {
+        background: $lo-black;
+        padding: 20px 15px;
+    }
+}
+
+@media screen and (min-width: $screen-md) {
+    .doofinder-block {
+
+        .doofinder-block__options {
+            
+            button {
+                width: 290px;
+                min-width: auto;
+                margin: 0 auto;
+            }
+        }
+
+        .doofinder-block__row {
+            width: 50%;
+            display: inline-flex;
+
+            &:first-child {
+                margin: 0;
+
+                label {
+
+                    &:nth-child(3) {
+                        border-radius: 0;
+                    }
+                }
+            }
+
+            &:nth-child(2) {
+
+                label {
+
+                    &:nth-child(1) {
+                        border-radius: 0;
+                    }
+                }
+
+                select {
+
+                    &:nth-child(4) {
+                        border: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.input-wrapper {
+    width:100%;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap;
+    transition: opacity .2s ease-in-out;
+
+    input, .input-icon {               
+        display: inline-flex;
+    }
+
+    input {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        background-color: #EFF3F5;
+        border: 1px solid transparent;
+        padding: 10px 15px 10px 35px;
+        outline: none;
+        transition: all 0.5s ease;
+        font-size: 14px;
+        font-style: italic;
+        color: #6A6A6B;
+        text-align: center;
+        border-radius: 5px;
+
+        &:focus {
+            border: 1px solid $lo-charcoal;
+            box-shadow: 0 0 10px rgb(0 0 0 / 20%) inset;
+        }
+
+        &::-webkit-input-placeholder {
+            color: #6A6A6B !important;
+        }
+
+        &::-moz-placeholder {
+            color: #6A6A6B !important;
+        }
+
+        &:-ms-input-placeholder {
+            color: #6A6A6B !important;
+        }
+
+        &:-moz-placeholder {
+            color: #6A6A6B !important;
+        }
+    }
+
+    .input-icon {
+        position: absolute;
+        top: 14px;
+        left: 10px;
+        z-index: 3;
+        background-color: transparent;
+        border: 0;
+        
+        svg {
+            width: 16px;
+            height: 16px;
+            fill: #6A6A6B;
+
+            path {
+                fill: #6A6A6B;
+            }
+        }
+    }
+
+    .input-loading {
+        width: 24px;
+        height: 24px;
+        position: absolute;
+        top: 7px;
+        right: 43px;
+        z-index: 2;
+    }
+}
+
+@media screen and (min-width: $screen-md) {
+    .input-wrapper {
+        justify-content: center;
+    
+        input {
+            width: 290px;
+        }
+
+        .input-icon {
+            left: 50%;
+            margin: 0 0 0 -135px;
+        }
+    }
+}
